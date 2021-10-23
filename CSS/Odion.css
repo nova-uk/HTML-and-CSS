@@ -1,6 +1,7 @@
 body {
   background-color: black;
   font-family: sans-serif, Verdana;
+  text-rendering: auto;
 }
 
 h1 {
@@ -29,8 +30,10 @@ li {
   word-spacing: 0.2em;
 }
 
-.links {
+a {
   text-align: center;
   text-decoration: underline;
-  padding: 10px;
+  padding: 20px;
+  font-weight: bold;
+
 }
