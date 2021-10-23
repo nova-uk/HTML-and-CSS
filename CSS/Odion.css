@@ -1,25 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
 body {
-  background-color: black;
   font-family: sans-serif, Verdana;
   text-rendering: auto;
+  background-color: black;
+  color: #fff;
+  line-height: 2px;
+  overflow-x: hidden;
+}
+
+.button {
+  border-color: white;
+  border-radius: 2px;
+  padding: 100px 100px;
+  margin: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: grey;
 }
 
 h1 {
   color: white;
   text-align: center;
-  padding: 0.3em;
+  padding: 1em;
 }
 
 h2 {
   color: white;
   text-align: justify;
-
+  padding: 2em;
 }
 
 p {
   color: white;
   text-align: center;
   font-size: 16px;
+  padding: 2em;
 
 }
 
@@ -31,9 +53,10 @@ li {
 }
 
 a {
+  color: black;
   text-align: center;
   text-decoration: underline;
   padding: 20px;
   font-weight: bold;
-
+  cursor-hover: none;
 }
