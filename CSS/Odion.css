@@ -42,14 +42,14 @@ p {
   text-align: center;
   font-size: 16px;
   padding: 2em;
-
 }
 
 li {
   color: white;
   text-align: justify;
-  padding: 10px;
+  padding: 20px 20px;
   word-spacing: 0.2em;
+  list-style-type: none;
 }
 
 a {
@@ -58,5 +58,4 @@ a {
   text-decoration: underline;
   padding: 20px;
   font-weight: bold;
-  cursor-hover: none;
 }
