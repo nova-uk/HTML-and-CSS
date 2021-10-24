@@ -62,3 +62,9 @@ a {
   align-self: center;
   font-weight: bold;
 }
+
+div.fps {
+  color: floralwhite;
+  font-weight: 600;
+  font-style: italic;
+}
