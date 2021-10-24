@@ -17,12 +17,14 @@ body {
 .button {
   border-color: white;
   border-radius: 2px;
-  padding: 100px 100px;
+  padding: 10px 10px;
   margin: 100px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
   background-color: grey;
+  size: 10px 10px;
+  align-items: center;
 }
 
 h1 {
@@ -53,9 +55,10 @@ li {
 }
 
 a {
-  color: black;
+  color: #000000;
   text-align: center;
   text-decoration: underline;
-  padding: 20px;
+  padding: 40px 40px;
+  align-self: center;
   font-weight: bold;
 }
