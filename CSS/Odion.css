@@ -16,9 +16,12 @@ body {
 
 .button {
   border-color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
   border-radius: 2px;
-  padding: 10px 10px;
-  margin: 100px;
+  padding: 5px 5px;
+  margin: 5px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
@@ -49,9 +52,10 @@ p {
 li {
   color: white;
   text-align: justify;
-  padding: 20px 20px;
+  padding: 5px 20px;
   word-spacing: 0.2em;
   list-style-type: none;
+  align-items: center;
 }
 
 a {
@@ -60,11 +64,16 @@ a {
   text-decoration: underline;
   padding: 40px 40px;
   align-self: center;
-  font-weight: bold;
+  font-weight: inherit;
+  font-size: medium;
 }
 
 div.fps {
   color: floralwhite;
   font-weight: 600;
   font-style: italic;
+  padding: 2em 4em;
+}
+
+img {
 }
