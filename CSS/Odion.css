@@ -33,7 +33,6 @@ body {
 
 .flix {
   border: 10px;
-  border-color: gold;
   color: red;
   font: 700;
   font-style: bold;
@@ -51,9 +50,17 @@ body {
   letter-spacing: 5px;
 }
 
-/* Xbox Header on homepage */
+.news {
+  color: #f70000;
+  text-rendering: auto;
+  font-size: 50px;
+  border: 5px #ffff;
+  background-color: #fff;
+}
 
-.xbox {
+/* Header for consoles on homepage */
+
+.consoles {
   color: #ffffff;
   font-weight: 600;
   letter-spacing: 2px;
