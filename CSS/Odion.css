@@ -16,16 +16,16 @@ body {
 
 .button {
   border-color: white;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  border-radius: 2px;
-  padding: 5px 5px;
-  margin: 5px;
+  position: fixed;
+  align-content: center;
+  top: 15%;
+  border-radius: 1px;
+  padding: 1px 1px;
+  margin: 0px;
   text-align: center;
   color: #ffffff;
-  background-color: grey;
-  size: 10px 10px;
+  background-color: white;
+  size: 5px 5px;
   align-items: center;
 }
 
@@ -46,9 +46,19 @@ body {
 .Index {
   border-width: thick;
   border-color: azure;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 5px;
+}
+
+/* Xbox Header on homepage */
+
+.xbox {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-decoration: underline;
 }
 
 h1 {
@@ -86,13 +96,6 @@ a {
   align-self: center;
   font-weight: inherit;
   font-size: medium;
-}
-
-div.fps {
-  color: floralwhite;
-  font-weight: 600;
-  font-style: italic;
-  padding: 2em 4em;
 }
 
 img {
