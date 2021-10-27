@@ -15,18 +15,16 @@ body {
 }
 
 .button {
-  border-color: white;
-  position: fixed;
-  align-content: center;
-  top: 15%;
-  border-radius: 1px;
-  padding: 1px 1px;
-  margin: 0px;
-  text-align: center;
-  color: #ffffff;
-  background-color: white;
-  size: 5px 5px;
-  align-items: center;
+  display: inline-flex;
+  height: 30px;
+  padding: 1px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 /* For the title on the homepage.*/
