@@ -15,12 +15,11 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
+  min-height: 1vh;
   padding-top: 10px;
-}
-
-.btn {
-  font-size: 12px;
 }
 
 /* For the title on the homepage.*/
@@ -70,8 +69,14 @@ body {
   text-decoration: underline;
 }
 
+.latest {
+  text-decoration: underline;
+  text-align: center;
+}
+
 .copyright {
   vertical-align: bottom;
+  text-align: center;
 }
 
 h1 {
