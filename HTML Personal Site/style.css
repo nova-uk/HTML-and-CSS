@@ -1,12 +1,13 @@
 body {
   display: flexbox;
-  background-color: grey;
+  background-color: rgb(255, 251, 251);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .welcome {
   color: black;
   font-size: 26px;
+  text-decoration: underline;
   font-style: italic;
   text-align: center;
   padding: 0.2em;
@@ -16,9 +17,27 @@ body {
 .firstparagraph {
   color: black;
   text-align: center;
+  font-style: italic;
 }
 
 .secondparagraph {
   text-align: center;
   color: black;
+}
+
+.headerthree {
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.paragraphthree {
+  font-style: italic;
+  text-align: center;
+}
+
+.list {
+  font-weight: bold;
+  text-align: center;
 }
