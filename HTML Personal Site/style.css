@@ -1,0 +1,24 @@
+body {
+  display: flexbox;
+  background-color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome {
+  color: black;
+  font-size: 26px;
+  font-style: italic;
+  text-align: center;
+  padding: 0.2em;
+  margin: 0.2em;
+}
+
+.firstparagraph {
+  color: black;
+  text-align: center;
+}
+
+.secondparagraph {
+  text-align: center;
+  color: black;
+}
