@@ -42,14 +42,27 @@ body {
 .list {
   font-weight: bold;
   text-align: center;
+  display: flexbox;
 }
 
 .image {
-  border-radius: 40px, 40px;
+  border-radius: 40px;
   height: 20%;
   width: 20%;
   display: flex;
   margin: auto;
+  padding: 1em;
+}
+
+.google {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.hobbies {
+  display: flexbox;
+  margin: auto;
+  text-align: center;
 }
 
 a {
