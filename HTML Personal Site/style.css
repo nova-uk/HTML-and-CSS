@@ -16,6 +16,12 @@ body {
   margin: 0.2em;
 }
 
+.links {
+  display: flexbox;
+  margin: auto;
+  text-align: center;
+}
+
 .firstparagraph {
   color: black;
   text-align: center;
