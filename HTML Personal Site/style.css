@@ -20,6 +20,7 @@ body {
   display: flexbox;
   margin: auto;
   text-align: center;
+  list-style-type: none;
 }
 
 .firstparagraph {
@@ -71,6 +72,9 @@ body {
   text-align: center;
 }
 
-a {
-  color: rgb(92, 92, 92);
+.contact {
+  display: flexbox;
+  padding: 10px;
+  margin: none;
+  text-align: justify;
 }
