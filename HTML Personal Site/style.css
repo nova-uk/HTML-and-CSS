@@ -78,3 +78,17 @@ body {
   margin: none;
   text-align: justify;
 }
+
+.hobbies {
+  display: flexbox;
+  margin: none;
+  padding: 10px, 10px, 10px;
+  text-align: center;
+}
+
+.aboutme {
+  display: flexbox;
+  margin: none;
+  padding: 10px 10px 10px;
+  text-align: center;
+}
