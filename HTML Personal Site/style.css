@@ -92,3 +92,21 @@ body {
   padding: 10px 10px 10px;
   text-align: center;
 }
+
+.projects {
+  display: flexbox;
+  text-align: center;
+  text-decoration: underline;
+  padding: 0px 0px 0px 10px;
+}
+
+.projects2 {
+  display: flexbox;
+  text-align: center;
+  padding: 0px 0px 0px 10px;
+}
+
+.projects-list {
+  display: flexbox;
+  list-style: none;
+}
