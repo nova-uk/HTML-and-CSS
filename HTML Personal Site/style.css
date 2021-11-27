@@ -2,7 +2,7 @@ body {
   display: flexbox;
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(252, 252, 252);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -14,7 +14,6 @@ body {
   text-align: center;
   padding: 0.2em;
   margin: 0.2em;
-  float: ;
 }
 
 .links {
