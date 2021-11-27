@@ -14,17 +14,19 @@ body {
   text-align: center;
   padding: 0.2em;
   margin: 0.2em;
+  float: ;
 }
 
 .links {
   display: flexbox;
-  flex-direction: row;
-  padding: 5px 5px 0px 5px;
+  padding: 5px 5px 5px 5px;
   margin: auto;
+  font-size: 16px;
   text-align: center;
   list-style-type: none;
   text-decoration: none;
   letter-spacing: 2px;
+  color: #000000;
 }
 
 .firstparagraph {
@@ -51,9 +53,13 @@ body {
 }
 
 .list {
+  display: flexbox;
+  flex-direction: row;
+  padding: 5px 5px 0px 5px;
+  list-style-type: none;
+  list-style: none;
   font-weight: bold;
   text-align: center;
-  display: flexbox;
 }
 
 .image {
@@ -68,6 +74,7 @@ body {
 .google {
   font-style: normal;
   font-weight: normal;
+  text-align: center;
 }
 
 .hobbies {
